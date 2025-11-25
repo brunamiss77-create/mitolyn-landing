@@ -1,67 +1,183 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Mitolyn — Conheça e Compre (Site Oficial)</title>
-  <meta name="description" content="Mitolyn auxilia no emagrecimento de forma natural. Página oficial do afiliado com informações, depoimentos e link seguro para compra.">
-  <meta name="robots" content="index,follow">
-  <style>
-    :root{--bg:#f8fafc;--card:#fff;--accent:#1f7a8c;--muted:#6b7280}
-    *{box-sizing:border-box}
-    body{font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;background:var(--bg);color:#111}
-    .container{max-width:980px;margin:32px auto;padding:20px}
-    header{display:flex;align-items:center;gap:16px}
-    .brand{display:flex;flex-direction:column}
-    h1{margin:0;font-size:1.6rem}
-    p.lead{color:var(--muted);margin:8px 0 18px}
-    .hero{display:grid;grid-template-columns:1fr 360px;gap:18px;align-items:start}
-    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 20px rgba(16,24,40,0.06)}
-    .price{font-weight:700;color:var(--accent);font-size:1.2rem}
-    .cta{display:inline-block;padding:12px 18px;background:var(--accent);color:#fff;border-radius:8px;text-decoration:none;font-weight:600}
-    .features{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:16px}
-    .feature{background:#f3f9fb;padding:12px;border-radius:8px}
-    .testimonials{margin-top:20px;display:flex;flex-direction:column;gap:12px}
-    .testi{background:#fff;padding:12px;border-radius:8px}
-    footer{margin-top:28px;color:var(--muted);font-size:0.9rem}
-    .small{font-size:0.85rem;color:var(--muted)}
-    @media(max-width:880px){.hero{grid-template-columns:1fr}.container{padding:16px}}
-    .badge{display:inline-block;background:#e6fffa;color:#064e3b;padding:6px 10px;border-radius:999px;font-weight:700}
-    .email-row{display:flex;gap:8px;margin-top:12px}
-    input[type="email"]{flex:1;padding:10px;border:1px solid #e6eef2;border-radius:8px}
-    button{padding:10px 14px;border-radius:8px;border:0;background:#0f172a;color:#fff;font-weight:600}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitolyn – Suplemento Natural para Auxílio no Emagrecimento</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: white;
+            border-bottom: 1px solid #ddd;
+        }
+
+        header h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            max-width: 600px;
+            margin: auto;
+            font-size: 16px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 30px 20px;
+            background: #fff;
+        }
+
+        .hero img {
+            max-width: 280px;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            margin-top: 30px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #222;
+            margin-top: 30px;
+            font-size: 24px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .cta-box {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .cta-btn {
+            background: #008CFF;
+            color: #fff;
+            padding: 16px 28px;
+            font-size: 22px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            transition: 0.2s;
+        }
+
+        .cta-btn:hover {
+            background: #006fd5;
+        }
+
+        footer {
+            text-align: center;
+            background: #f2f2f2;
+            padding: 30px;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        .faq-item strong {
+            font-size: 17px;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 22px; }
+            h2 { font-size: 20px; }
+            .cta-btn { font-size: 18px; padding: 14px 22px; }
+        }
+    </style>
 </head>
+
 <body>
-  <div class="container">
-    <header>
-      <div class="brand">
-        <div style="display:flex;align-items:center;gap:12px">
-          <img src="https://via.placeholder.com/72x72.png?text=Mitolyn" alt="Mitolyn" width="72" height="72" style="border-radius:8px;object-fit:cover">
-          <div>
-            <h1>Mitolyn — Fórmula Natural que auxilia no emagrecimento</h1>
-            <div class="small">Página oficial do afiliado — Compra segura e entrega internacional</div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <main class="hero">
-      <section>
-        <div class="card">
-          <p class="lead">Mitolyn é um suplemento desenvolvido para <strong>auxiliar no emagrecimento</strong> quando combinado com dieta e atividade física.</p>
-          <div class="features">
-            <div class="feature"><strong>Fórmula natural</strong><div class="small">Ingredientes selecionados.</div></div>
-            <div class="feature"><strong>Compra Segura</strong><div class="small">Checkout ClickBank.</div></div>
-            <div class="feature"><strong>Depoimentos Reais</strong></div>
-            <div class="feature"><strong>Frete internacional</strong></div>
-          </div>
-          <div style="margin-top:14px">
-            <a class="cta" href="https://9537f6th05qi5649wfwe1dfw83.hop.clickbank.net" target="_blank">COMPRAR AGORA</a>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer><div class="small">Aviso: resultados podem variar.</div></footer>
-  </div>
+
+<header>
+    <h1>Mitolyn – Suplemento Natural para Apoio ao Emagrecimento</h1>
+    <p>Informações claras, seguras e oficiais sobre o produto. Efetue sua compra com segurança pela ClickBank.</p>
+</header>
+
+<section class="hero">
+    <img src="https://i.imgur.com/5H7Y8Co.png" alt="Mitolyn">
+</section>
+
+<div class="container">
+
+    <h2>O que é o Mitolyn?</h2>
+    <p>
+        Mitolyn é um suplemento natural desenvolvido para auxiliar pessoas que buscam melhorar a energia,
+        o bem-estar e o processo de emagrecimento quando combinado com hábitos saudáveis.
+    </p>
+
+    <h2>Benefícios do Mitolyn</h2>
+    <ul>
+        <li>Auxilia o metabolismo de forma natural</li>
+        <li>Contribui para mais energia no dia a dia</li>
+        <li>Fórmula natural selecionada</li>
+        <li>Produto enviado internacionalmente</li>
+        <li>Compra 100% segura via ClickBank</li>
+    </ul>
+
+    <h2>Como o Mitolyn funciona?</h2>
+    <p>
+        Sua composição inclui ingredientes naturais que oferecem suporte ao metabolismo, ajudando o corpo a manter
+        equilíbrio energético durante o dia. Não se trata de um produto milagroso, mas sim um apoio ao processo natural.
+    </p>
+
+    <div class="cta-box">
+        <h2>Comprar Mitolyn com Segurança</h2>
+        <p>Pagamento protegido pela ClickBank, líder internacional em pagamentos digitais.</p>
+
+        <!-- SEU LINK DE AFILIADO -->
+        <a href="https://64a984ult8fly44bujya0h4q3j.hop.clickbank.net" class="cta-btn">COMPRAR AGORA</a>
+    </div>
+
+    <h2>Depoimentos</h2>
+    <p>
+        Usuários relatam aumento de energia e bem-estar com o uso contínuo do produto. Resultados podem variar de pessoa para pessoa.
+    </p>
+
+    <h2>Perguntas Frequentes (FAQ)</h2>
+
+    <div class="faq-item">
+        <strong>O Mitolyn emagrece sozinho?</strong>
+        Não. Ele funciona como suporte quando associado a alimentação equilibrada e atividade física.
+    </div>
+
+    <div class="faq-item">
+        <strong>É seguro comprar?</strong>
+        Sim. Todo o pagamento é processado pela ClickBank, uma das plataformas mais confiáveis do mundo.
+    </div>
+
+    <div class="faq-item">
+        <strong>O envio é para o Brasil?</strong>
+        Sim. O produto é enviado internacionalmente pela transportadora parceira.
+    </div>
+
+</div>
+
+<footer>
+    <p>Este é um site informativo de afiliado e não substitui orientações profissionais. Não reivindicamos curas ou resultados garantidos.</p>
+    <p>Termos de Uso • Política de Privacidade • Aviso Legal</p>
+</footer>
+
 </body>
 </html>
