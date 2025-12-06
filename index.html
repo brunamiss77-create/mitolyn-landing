@@ -1,9 +1,28 @@
+
+    
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MITOLYN - Página de Pré-Venda Oficial</title>
+
+  <!-- Global site tag (gtag.js) - Google Ads: AW-17707648610 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17707648610"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-17707648610');
+  </script>
+
+  <!-- Função para rastrear clique no botão -->
+  <script>
+    function gtag_conversion_click() {
+      gtag('event', 'conversion', {'send_to': 'AW-17707648610/CLICK'});
+    }
+  </script>
+
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -108,14 +127,15 @@
       <strong>Garantia de 180 dias:</strong> você pode testar sem risco. Se não gostar, pode pedir reembolso total.
     </div>
 
-    <!-- BOTÃO COM SEU LINK DE AFILIADO -->
-    <a href="https://82dc6a6kvxjhw7egtjud8h3ydn.hop.clickbank.net" class="button">CLIQUE PARA VER O DESCONTO DISPONÍVEL</a>
+    <!-- BOTÃO COM SEU LINK DE AFILIADO E EVENTO DE CLIQUE -->
+    <a href="https://82dc6a6kvxjhw7egtjud8h3ydn.hop.clickbank.net" 
+       class="button" 
+       onclick="gtag_conversion_click()">
+       CLIQUE PARA VER O DESCONTO DISPONÍVEL
+    </a>
   </div>
 </body>
 </html>
- 
-
-         
 
 
 
